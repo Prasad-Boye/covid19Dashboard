@@ -1,0 +1,97 @@
+.covid-select-list-container {
+  width: 40%;
+  height: 148px;
+}
+
+.covid-select-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .covid-select-list-container {
+    width: 20%;
+    height: 190px;
+  }
+}
+
+.confirmed {
+  background-color: #331427;
+  border-radius: 8px;
+}
+
+.confirmed-cases {
+  color: #ff073a;
+}
+
+.active {
+  background-color: #132240;
+  border-radius: 8px;
+}
+
+.active-cases {
+  color: #007bff;
+}
+
+.recovered {
+  background-color: #182829;
+  border-radius: 8px;
+}
+
+.recovered-cases {
+  color: #28a745;
+}
+
+.deceased {
+  background-color: #212230;
+  border-radius: 8px;
+}
+
+.deceased-cases {
+  color: #6c757d;
+}
+
+.covid-select-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.covid-select-image {
+  height: 24px;
+  width: 24px;
+  margin: 20px;
+}
+
+.covid-select-total-cases {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .covid-select-heading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .covid-select-image {
+    height: 38px;
+    width: 38px;
+    margin: 20px;
+  }
+
+  .covid-select-total-cases {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

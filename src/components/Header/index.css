@@ -1,0 +1,153 @@
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-bg-container {
+  background-color: #1e1e30;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-responsive-container {
+  background-color: transparent;
+  width: 86%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-heading {
+  color: #f8fafc;
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-heading-span {
+  color: #007bff;
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sm-nav-icons-list-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.lg-nav-links-list-container {
+  display: none;
+}
+
+.lg-nav-links-unordered-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.lg-nav-list-item-btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.selected {
+  color: #f8fafc;
+}
+
+.sm-nav-links-list-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e30;
+}
+
+.sm-nav-links-list-responsive-container {
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-nav-links-unordered-list {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.sm-nav-links-btn {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #94a3b8;
+  cursor: pointer;
+}
+
+.close-icon-btn {
+  background: #ffffff;
+  height: 24px;
+  width: 24px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .sm-nav-icons-list-btn {
+    display: none;
+  }
+
+  .nav-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .lg-nav-links-list-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .mode-selector {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  .mode-selector-btn {
+    background-color: transparent;
+    margin-left: 40px;
+    border: none;
+  }
+
+  .sm-nav-links-list-container {
+    display: none;
+  }
+}

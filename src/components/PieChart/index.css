@@ -1,0 +1,41 @@
+.vaccine-half-donuts-container {
+  width: 100%;
+  min-height: 480px;
+  background-color: #1c1c2b;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.vaccine-half-donuts-container-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+
+.half-donut-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .vaccine-half-donuts-container {
+    width: 46%;
+    margin-top: 24px;
+  }
+
+  .vaccine-half-donuts-container-heading {
+    font-size: 24px;
+    align-self: flex-start;
+    padding-left: 48px;
+  }
+}

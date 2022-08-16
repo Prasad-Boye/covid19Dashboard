@@ -1,0 +1,19 @@
+.sm-bar-chart {
+  display: block;
+  margin-top: 20px;
+}
+
+.lg-bar-chart {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sm-bar-chart {
+    display: none;
+  }
+
+  .lg-bar-chart {
+    margin-top: 20px;
+    display: block;
+  }
+}

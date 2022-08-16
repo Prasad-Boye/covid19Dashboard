@@ -1,0 +1,212 @@
+.vaccine-main-container {
+  background-color: #161625;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vaccination-loader-container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vaccine-responsive-container {
+  width: 96%;
+  padding: 24px;
+}
+
+.country-state-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.home-icon {
+  font-size: 20px;
+}
+
+.country-state-name-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #cbd5e1;
+  margin-left: 16px;
+}
+
+.selects-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.select-container {
+  height: 30px;
+  width: 44%;
+  margin-right: 8px;
+  background-color: #222234;
+  border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+  .vaccine-responsive-container {
+    width: 90%;
+    padding: 24px;
+  }
+
+  .home-icon {
+    font-size: 32px;
+  }
+
+  .country-state-name-heading {
+    font-size: 32px;
+  }
+
+  .selects-container {
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .select-container {
+    height: 30px;
+    width: 16%;
+    margin-right: 8px;
+    background-color: #222234;
+    border-radius: 4px;
+  }
+}
+
+.vaccine-details-container {
+  width: 100%;
+  background: #2f2f43;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.vaccine-logo-container {
+  background: #161625;
+  width: 40px;
+  height: 40px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.vaccine-logo {
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+}
+
+.vaccines-count-containers {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.total-vaccine {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #cbd5e1;
+  margin-top: 4px;
+}
+
+.total-vaccine-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.doses-container {
+  display: flex;
+}
+
+.dose1-container {
+  margin-right: 24px;
+}
+
+.doses-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #cbd5e1;
+}
+
+.doses-count {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #e2e8f0;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.vaccine-pie-charts-container {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .vaccine-details-containers {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .vaccine-details-container {
+    width: 48%;
+  }
+
+  .vaccine-logo-container {
+    width: 48px;
+    height: 48px;
+  }
+
+  .vaccine-logo {
+    width: 29px;
+    height: 29px;
+  }
+
+  .total-vaccine {
+    font-size: 18px;
+  }
+
+  .total-vaccine-count {
+    font-size: 18px;
+  }
+
+  .doses-heading {
+    font-size: 18px;
+  }
+
+  .doses-count {
+    font-size: 16px;
+  }
+
+  .vaccine-pie-charts-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
